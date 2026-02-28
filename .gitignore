@@ -1,0 +1,12 @@
+# Large data files
+datasets/*.csv
+datasets/*.json
+
+# Large model files
+models/*.pkl
+validation/*.pkl
+
+# Cache
+.cache
+__pycache__
+.DS_Store
