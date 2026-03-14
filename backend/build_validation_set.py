@@ -1,7 +1,3 @@
-"""
-Build the 2020 validation set CSV using the exact same cleaning
-pipeline from binary_2020_7_modelz.ipynb.
-"""
 import pandas as pd
 import os
 
@@ -30,7 +26,6 @@ def build():
 
     validation = tracks[tracks["year"] == 2020].copy()
 
-    # Keep only columns needed by the frontend/backend
     keep_cols = [
         "name", "artists", "popularity", "danceability", "energy", "loudness",
         "speechiness", "acousticness", "instrumentalness", "liveness", "valence",
