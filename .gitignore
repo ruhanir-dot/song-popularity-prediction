@@ -1,0 +1,27 @@
+# Models and Pickles
+*.pkl
+*.joblib
+
+# Datasets
+datasets/*.csv
+datasets/*.json
+!datasets/README.md
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
